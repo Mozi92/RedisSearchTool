@@ -1,0 +1,22 @@
+{
+  "name": "redis-search-tool",
+  "version": "1.0.0",
+  "description": "redis数据可视化web工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/mozi92/redis-search-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0",
+    "redis": "^3.0.2"
+  }
+}
